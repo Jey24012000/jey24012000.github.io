@@ -12,3 +12,6 @@
 .plans-container--slider{
     justify-content: center;
 }
+.bitcoin-img-container{
+    max-width: 100%;
+}
