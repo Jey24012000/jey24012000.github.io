@@ -439,12 +439,14 @@ main{
     display: flex;
     height: 316px;
     overflow-x: scroll;
+    overflow-y: hidden;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
 .plans-container--card{
     position: relative;
     scroll-snap-align: center;
+    
     width: 70%;
     min-width: 190px;
     max-width: 300px;
@@ -455,6 +457,11 @@ main{
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
+.plans-container--slider .animacion{
+    visibility: visible;
+    animation-delay: 0.1s;
+}
+
 .plans-container--card .recommended{
     position: absolute;
     width: 120px;

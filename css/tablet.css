@@ -2,15 +2,19 @@
     display: flex;
     width: 930px;
     margin: 0 auto;
+    overflow-x: hidden;
 }
+
 .product-cards--container{
     display: flex;
     flex-wrap: wrap;
     max-width: 930px;
     margin: 0 auto;
 }
+
 .plans-container--slider{
     justify-content: center;
+    overflow-x: hidden;
 }
 .bitcoin-img-container{
     max-width: 100%;
